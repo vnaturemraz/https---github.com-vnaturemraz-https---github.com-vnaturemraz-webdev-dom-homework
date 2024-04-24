@@ -62,8 +62,6 @@ export const initLikeListener = () => {
     }
 };
 
-
-
 //Цитата коммента
 export const quoteCommets = () => {
     const commentElements = document.querySelectorAll(".comment");
