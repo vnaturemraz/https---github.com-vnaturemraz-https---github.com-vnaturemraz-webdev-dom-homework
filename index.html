@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Проект "Комменты"</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <span class="preload">Загрузка страницы комментариев</span>
+    <ul id="comments" class="comments">
+    </ul>
+    <div id="add-form" class="add-form">
+      <input id="add-name" type="text" class="add-form-name" placeholder="Введите ваше имя" />
+      <textarea id="add-text" type="textArea" class="add-form-text" placeholder="Введите ваш коментарий"
+        rows="4"></textarea>
+      <div class="add-form-row">
+        <button id="add-form-button" class="add-form-button">Написать</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="module" src="./main.js"></script>
+</html>
